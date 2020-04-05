@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Product Sans Regular";
+  src: url("Product Sans Regular.ttf");
+}
+
+body
+{
+    margin:0;
+    font-family: Product Sans Regular;
+}
+
+a:hover
+{
+
+     color:gray;
+     cursor:pointer;
+}
+
+p:hover
+{
+    cursor:pointer;
+    color:red;
+}
+
+.aa
+{
+    margin-top:30px;
+
+    color:black;
+    text-decoration:none;
+}
+
+.cabecera
+{
+
+  background-color:#3b83bd ;
+  margin:0;
+  position: fixed;
+  z-index: 100;
+   width: 100%;
+}
+
+.cabecera a
+{
+text-decoration:none;
+color:#fff;
+
+}
+.cabecera img
+{
+    height:80px;
+
+}
+
+.menu
+{
+    margin-top:40px;
+    float:right;
+}
+
+footer
+ {
+     text-align:right;
+      background-color:#3b83bd ;
+ }
+
+
+footer p
+{
+    margin:0;
+    font-size:30px;
+}
